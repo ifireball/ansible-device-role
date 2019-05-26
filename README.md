@@ -23,17 +23,17 @@ Requirements
 Example Playbook
 ----------------
 
----
-- hosts: ansible-device
-  gather_facts: no
-  roles:
-    - ansible_device
-  tasks:
-    - name: Message to Dune
-      ansible_message:
-        destination: dune
-        message: |
-          Hi from Earth!
+    ---
+    - hosts: ansible-device
+      gather_facts: no
+      roles:
+        - ansible_device
+      tasks:
+        - name: Message to Dune
+          ansible_message:
+            destination: dune
+            message: |
+              Hi from Earth!
 
 License
 -------
