@@ -1,0 +1,5 @@
+---
+# This file is intentionally empty because this role does not have any
+# explicit functionality other then making the `ansible_message` module,
+# the ansible_message action plugin and the planetdb lookup plugin available
+#
